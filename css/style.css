@@ -1,0 +1,388 @@
+
+ #full{
+	width:100%;
+	height:auto;
+	
+	
+}
+
+
+#header{
+	width:100%;
+	height:100px;
+	background:#f7df79;
+	
+	
+	
+}
+
+/*background:#8c0513;
+   position:fixed;
+*/
+
+
+	
+	
+
+
+#logo{
+	width:30%;
+	height:50px;
+	float:left;
+	
+	
+}
+
+#logo2{
+	width:30%;
+	height:100px;
+	
+	
+	
+	
+}
+
+
+#nav{
+	width:70%;
+	height:100px;
+	float:left;
+	
+}
+
+ul li{
+	list-style:none;
+	float:left;
+	width:14%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	
+}
+a{
+	text-decoration:none;
+	
+	color:#ffdf80;
+	
+	
+	
+}
+/*color: #ffff80;
+ color: #fff2cc;*/
+ 
+ a:hover{
+	  background-color: #ffff80;
+	  color:#4d4d00;
+ }
+h1{
+	padding:10px;
+	
+}
+
+#banner{
+	width:100%;
+	height:450px;
+	
+}
+
+#f1{
+	width:100%;
+	height:200px;
+	background-color:#f7df79;
+	
+}
+
+#welcome{
+	width:100%;
+	height:200px;
+	
+}
+#footer{
+	width:100%;
+	height:auto;
+	
+}
+
+#img{
+	width:40px;
+	height:-70px;
+	margin-left:150px;
+	margin-right:auto;
+	
+	display:inline;
+	
+}
+
+#t1{
+
+  font-weight:bold;
+
+
+
+}
+
+#g1{
+	width:100%;
+	height:500px;
+	
+	
+}
+#one{
+	width:33%;
+	height:auto;
+	float:left;
+	
+}
+
+#two{
+	width:33%;
+	height:auto;
+	float:left;
+	
+}
+
+#three{
+	width:33%;
+	height:auto;
+	float:left;
+	
+}
+
+
+
+     	
+
+
+
+/*r1.php*/
+#bg{
+	background-size:100%;
+	 
+	
+	
+	
+	
+}
+
+#form{
+	
+	width:450px;
+	padding-top:10px;
+	padding-left:90px;
+	height:auto;
+	
+}
+
+td{
+	
+	width:400px;
+	height:50px;
+}
+
+/*dining.php*/
+
+
+
+.container{
+		margin: 0 auto;
+		margin-top: 60px;
+		position: relative;
+		width: 102%;
+		height: 9%;
+		padding-bottom: 40%;
+		
+	    user-select: none;
+		background-color: #1c1c1c;
+		
+		
+	}
+	
+	
+	
+	 .slide_img {
+		position: absolute;
+		width: 400%;
+		height: 150%;
+		z-index: -1;
+		
+		 img{
+		width: inherit;
+		height: inherit;
+	}
+
+		
+	}
+	
+	.container #nav_slide{
+	width: 100%;
+	bottom: 12%;
+	height: 11px;
+	position: absolute;
+	text-align: center;
+	z-index: 99;
+	cursor: default;
+}
+
+#nav_slide .dots{
+	top: -5px;
+	width: 18px;
+	height: 18px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: .4s;
+}
+
+#nav_slide .dots:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.9);
+	transition: .25s
+}
+
+
+
+
+.slide_img{z-index: -1;}
+
+	#i1:checked ~ #one  ,
+	#i2:checked ~ #two  ,
+	#i3:checked ~ #three
+	
+	{z-index: 9; animation: scroll 1s ease-in-out;}
+
+	#i1:checked  ~  #nav_slide #dot1,
+	#i2:checked  ~  #nav_slide #dot2,
+	#i3:checked  ~  #nav_slide #dot3
+
+	{ background-color: rgba(255,255,255,.9);}
+
+@keyframes scroll{
+	0%{	opacity:.4;}
+	100%{opacity:1;}
+}		
+
+
+/*meeting.php*/
+#mone{
+	width:100%;
+	height:auto;
+	float:left;
+	
+}
+
+#mtwo{
+	width:100%;
+	height:auto;
+	float:left;
+	
+}
+
+
+#footer{
+	width:100%;
+	height:auto;
+	
+}
+
+#g2{
+	width:100%;
+	height:500px;
+	
+	
+}
+
+/*Food Menu*/
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: rgb(92, 92, 92);
+}
+ 
+.menu-section {
+  margin-bottom: 80px;
+}
+ 
+.menu-section-title {
+  font-family: georgia;
+  font-size: 50px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0; 
+  text-align: Center;
+ 
+}
+ 
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+ 
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+  font:#ff0000;
+ line-height: 2.5em;
+}
+ 
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 2.5em;
+}
+ 
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -30px;
+  line-height: 4em;
+}
+
+
+/*gallery.php*/
+.gallery{
+	margin:10px 50px;
+}
+.gallery img{
+	transition:1s;
+	padding:30px;
+	width:200px;
+}
+.gallery img:hover{
+	filter:grayscale(100%);
+	transform:scale(1.2);
+}
+/*google_maps.html*/
+
+/* Set the size of the div element that contains the map */ 
+#map { 
+  height: 400px; /* The height is 400 pixels */ 
+  width: 100%; /* The width is the width of the web page */ 
+  }
+.text-center{
+	margin:190px;
+	
+}  
+/*eupdate.php*/
+#form1{
+	
+	width:450px;
+	padding-top:10px;
+	padding-left:110px;
+	height:650px;
+	
+}
+
+
+
+
+
+
+
+
+
+
